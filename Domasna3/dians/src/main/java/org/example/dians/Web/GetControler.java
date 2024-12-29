@@ -17,8 +17,8 @@ import java.util.stream.Collectors;
 public class GetControler {
     public GetControler() {
         PythonScriptRunner.runPythonScript();
-        //PythonScriptRunner.runPythonScriptFundamentalAnalysis();
-        //PythonScriptRunner.runPythonScriptLSTM();
+        PythonScriptRunner.runPythonScriptFundamentalAnalysis();
+        PythonScriptRunner.runPythonScriptLSTM();
     }
 
     @GetMapping("/scr")
